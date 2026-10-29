@@ -1,4 +1,4 @@
-package com.navorjames.compose.navigation2
+package com.navorjames.compose.navigation3
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.navorjames.compose.navigation2.test", appContext.packageName)
+        assertEquals("com.navorjames.compose.navigation3.test", appContext.packageName)
     }
 }
